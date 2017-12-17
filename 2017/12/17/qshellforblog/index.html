@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="聆雨夜思">
 <meta property="og:description" content="qshell是利用七牛文档上公开的API实现的一个方便开发者测试和使用七牛API服务的命令行工具。现在要介绍如何利用qshell工具中的qupload命名批量上传本地文件夹中的图片到七牛云，以便进一步在个人博客等地方使用。 0、准备工作：注册七牛云账户，建立一个图像储存空间，也就是bucket，假设bucket的名字为chenjnyanx。 1、到七牛云开发者中心下载相应系统版本的 qshell">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-17T10:34:56.000Z">
+<meta property="og:updated_time" content="2017-12-17T13:16:54.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="qshell工具使用教程：批量上传图片到七牛云">
 <meta name="twitter:description" content="qshell是利用七牛文档上公开的API实现的一个方便开发者测试和使用七牛API服务的命令行工具。现在要介绍如何利用qshell工具中的qupload命名批量上传本地文件夹中的图片到七牛云，以便进一步在个人博客等地方使用。 0、准备工作：注册七牛云账户，建立一个图像储存空间，也就是bucket，假设bucket的名字为chenjnyanx。 1、到七牛云开发者中心下载相应系统版本的 qshell">
@@ -315,7 +315,7 @@
    &quot;src_dir&quot;            :   &quot;/Users/CHENJinyan/qupload&quot;,
    &quot;bucket&quot;             :   &quot;chenjnyanx&quot;
 }
-</code></pre><p>6、完成以上步骤后，就可以通过命令<code>$ qshell qupload [&lt;ThreadCount&gt;] &lt;LocalUploadConfig&gt;</code> 批量上传图片。<code>[&lt;ThreadCount&gt;]</code>是一次同时上传的文件数量，可以不填。<code>&lt;LocalUploadConfig&gt;</code> 是指刚刚配置好的json文件的全路径。比如我输入是 <code>$ qshell-darwin-x64 qupload /Users/CHENJinyan/Downloads/qupload.json</code>    </p>
+</code></pre><p>5、完成以上步骤后，就可以通过命令<code>$ qshell qupload [&lt;ThreadCount&gt;] &lt;LocalUploadConfig&gt;</code> 批量上传图片。<code>[&lt;ThreadCount&gt;]</code>是一次同时上传的文件数量，可以不填。<code>&lt;LocalUploadConfig&gt;</code> 是指刚刚配置好的json文件的全路径。比如我输入是 <code>$ qshell-darwin-x64 qupload /Users/CHENJinyan/Downloads/qupload.json</code>    </p>
 <p><strong>参考：</strong></p>
 <ul>
 <li><a href="https://developer.qiniu.com/kodo/tools/1302/qshell" target="_blank" rel="noopener">七牛云官方说明：命令行工具(qshell)</a></li>
